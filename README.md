@@ -1,8 +1,27 @@
-# React + Vite
+# Encriptador de Texto con SHA-256
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web simple desarrollada en React que permite a los usuarios encriptar un texto utilizando el algoritmo de hash SHA-256. El propósito de esta aplicación es ilustrar cómo se puede realizar una operación de encriptación básica en una interfaz amigable.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ingreso de texto a través de un formulario.
+- Encriptación del texto utilizando el algoritmo SHA-256.
+- Visualización del texto encriptado en formato hexadecimal.
+- Diseño responsivo y atractivo para una mejor experiencia de usuario.
+
+## Tecnologías Utilizadas
+
+- **React**: Una biblioteca de JavaScript para construir interfaces de usuario.
+- **CryptoJS**: Una librería de criptografía en JavaScript utilizada para aplicar el algoritmo de hash SHA-256.
+- **CSS**: Para el diseño y la presentación visual de la aplicación.
+
+## Instalación
+
+Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
+
+1. **Clona este repositorio:**
+
+   ```bash
+   git clone https://github.com/tu-usuario/encriptador-texto.git
+   cd encriptador-texto
+
